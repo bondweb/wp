@@ -1,0 +1,153 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+/* calendar widget */
+#wp-calendar {
+	width: 100%;
+	max-width: 37.5rem;
+	background: #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wp-calendar caption {
+	background: #3299bb;
+	color: #fff;
+	padding: 0.25rem;
+	text-align: center;
+}
+
+#wp-calendar thead tr {
+	border-right: 1px solid #ccc;
+}
+
+#wp-calendar thead th {
+	font-size: 90%;
+	font-weight: bold;
+	padding: 0.25rem;
+	background: #ccc;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#wp-calendar tbody td {
+	position: relative;
+	padding: 0.125rem;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+#wp-calendar tbody td.pad {
+	opacity: 0.7;
+}
+
+#wp-calendar tbody td#today {
+	font-weight: bold;
+}
+
+#wp-calendar tbody td#today:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #999;
+	border-left: 10px solid transparent;
+}
+
+#wp-calendar tbody td a {
+	display: block;
+	background: rgba(50, 153, 187, 0.2);
+}
+
+#wp-calendar tbody td a:hover {
+	background: #3299bb;
+	color: #fff;
+}
+
+#wp-calendar tfoot tr {
+	background: rgba(255, 255, 255, 0.7);
+	border: 1px solid #ccc;
+}
+
+#wp-calendar tfoot tr td {
+	border: 0;
+	padding: 0;
+}
+
+#wp-calendar tfoot tr a {
+	display: block;
+	padding: 0.25rem 0.75rem;
+}
+
+#wp-calendar tfoot tr a:hover {
+	background: #fff;
+}
+
+#wp-calendar tfoot tr #prev {
+	text-align: left;
+}
+
+#wp-calendar tfoot tr #next {
+	text-align: right;
+}
+
+/* search widget */
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+/* responsive height thumbnail */
+.card-img-top {
+    width: 100%;
+    height: auto !important;
+}
+
+/* sidebar style */
+.col-md-4 ul { list-style:decimal}
+.col-md-4 li { list-style-type:georgian}
+.col-md-4 ul .cat-item li  {list-style:decimal}
+#sidebar ul ul li {attributes}
+#sidebar ul ul ul li {attributes}
+#pagenav {attributes}
+#pagenav ul {attributes}
+#pagenav ul li {attributes}
+#sidebar a {attributes}
+#sidebar a:hover {attributes}
+#categories a {attributes}
+#categories a:hover {attributes}
+#archives a {attributes}
+#archives a:hover {attributes}
